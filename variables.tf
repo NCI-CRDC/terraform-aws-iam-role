@@ -26,6 +26,11 @@ variable "program" {
   }
 }
 
+variable "assume_role_policy" {
+  type        = string
+  description = "the arn of the trust policy attached to the role"
+}
+
 variable "description" {
   type        = string
   description = "description of the role"
@@ -49,6 +54,6 @@ variable "permissions_boundary" {
 }
 
 variable "resource_name_suffix" {
-  type = string 
+  type        = string
   description = "the resource name suffix that follows the stack name"
 }
