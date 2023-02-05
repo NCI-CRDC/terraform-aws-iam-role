@@ -36,7 +36,6 @@ No modules.
 | <a name="input_description"></a> [description](#input\_description) | description of the role | `string` | n/a | yes |
 | <a name="input_env"></a> [env](#input\_env) | the target tier ('dev', 'qa', 'stage', or 'prod'.) | `string` | n/a | yes |
 | <a name="input_force_detach_policies"></a> [force\_detach\_policies](#input\_force\_detach\_policies) | force detaching any policies the role has before destroying it | `bool` | `false` | no |
-| <a name="input_managed_policy_arns"></a> [managed\_policy\_arns](#input\_managed\_policy\_arns) | managed policies to attach to the role | `set(string)` | n/a | yes |
 | <a name="input_path"></a> [path](#input\_path) | path to the role | `string` | `null` | no |
 | <a name="input_permissions_boundary"></a> [permissions\_boundary](#input\_permissions\_boundary) | arn of the policy that is used to set the permissions boundary for the role | `string` | n/a | yes |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
