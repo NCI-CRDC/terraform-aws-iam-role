@@ -47,3 +47,8 @@ variable "permissions_boundary" {
   type        = string
   description = "arn of the policy that is used to set the permissions boundary for the role"
 }
+
+variable "resource_name_suffix" {
+  type = string 
+  description = "the resource name suffix that follows the stack name"
+}

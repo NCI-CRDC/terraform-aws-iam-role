@@ -39,6 +39,7 @@ No modules.
 | <a name="input_path"></a> [path](#input\_path) | path to the role | `string` | `null` | no |
 | <a name="input_permissions_boundary"></a> [permissions\_boundary](#input\_permissions\_boundary) | arn of the policy that is used to set the permissions boundary for the role | `string` | n/a | yes |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
+| <a name="input_resource_name_suffix"></a> [resource\_name\_suffix](#input\_resource\_name\_suffix) | the resource name suffix that follows the stack name | `string` | n/a | yes |
 
 # Outputs
 
