@@ -5,5 +5,4 @@ resource "aws_iam_role" "this" {
   assume_role_policy    = var.assume_role_policy
   permissions_boundary  = var.permissions_boundary
   path                  = var.path
-  managed_policy_arns   = var.managed_policy_arns
 }

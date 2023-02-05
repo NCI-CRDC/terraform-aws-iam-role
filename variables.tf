@@ -37,11 +37,6 @@ variable "force_detach_policies" {
   default     = false
 }
 
-variable "managed_policy_arns" {
-  type        = set(string)
-  description = "managed policies to attach to the role"
-}
-
 variable "path" {
   type        = string
   description = "path to the role"
